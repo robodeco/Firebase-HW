@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-messaging.js"></script>
+  <script type="text/javascript" src="assets/javascript/javascript2.js"></script>
+
+</head>
+<body>
+
+  <body>
+    <div class="jumbotron">
+      <h1>Hello, world!</h1>
+    </div>
+
+    <table class="table" id="app-table">
+      <thead>
+        <tr>
+          <th scope="col">Employee Name</th>
+          <th scope="col">Role</th>
+          <th scope="col">Start Date</th>
+          <th scope="col">Months Worked</th>
+          <th scope="col">Monthly Rate ($)</th>
+          <th scope="col">Total Billed ($)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- <tr>
+          <th scope="row" id="">Role</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr> -->
+
+      </tbody>
+    </table>
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Employee Name</label>
+        <input type="text" class="form-control" id="name-form" placeholder="John Doe">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Role</label>
+        <input type="text" class="form-control" id="role-form" placeholder="e.g. teacher">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Start Date</label>
+        <input type="text" class="form-control" id="date-form" placeholder="01/01/17">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Monthly Rate</label>
+        <input type="text" class="form-control" id="rate-form" placeholder="$$">
+      </div>
+    </form>
+    <button type="button" name="button" id="submit">Submit</button>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+</body>
+</html>
