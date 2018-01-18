@@ -13,7 +13,7 @@
   <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-database.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-firestore.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-messaging.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/locale/af.js"></script>
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script></script>
   <script type="text/javascript" src="assets/javascript/javascript2.js"></script>
 
 </head>
@@ -32,12 +32,13 @@
           <th scope="col">Destination</th>
             <td id="#destHere"></td>
           <th scope="col">Frequency (min)</th>
-            <td id="#freqHere"></td>
+            <td id="#ftrainHere"></td>
           <th scope="col">Next Arrival</th>
-            <td id="arrHere"></td>
+            <td id="freqHere"></td>
           <th scope="col">Minutes Away</th>
             <td id="#minHere"></td>
         </tr>
+        <div id="putInfoHere"></div>
       </thead>
       <tbody>
 
@@ -62,7 +63,6 @@
       </div>
     </form>
     <button type="button" name="button" id="submit">Submit</button>
-
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
