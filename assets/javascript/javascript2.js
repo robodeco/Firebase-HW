@@ -15,6 +15,16 @@ firebase.initializeApp(config);
 
 //establish variable to firebase
 var database = firebase.database();
+
+var currentTime = moment();
+var frequency = $("#frequency-form").val();
+var nextArrival = $("#trainTime-form").val();
+var minutesAway = currentTime.diff(nextArrival);
+
+var getIDTest = $('#form-group')
+var idRef = firebase.database().ref().child('form-group');
+
+
 //empty variable to store information
 var train = {};
 
@@ -83,12 +93,3 @@ $("#freqHere").text(snapshot.val().frequency);
 // });
 // });
 // };
-
-//extra junk
-// var currentTime = moment();
-// var frequency = $("#frequency-form").val();
-// var nextArrival = $("#trainTime-form").val();
-// var minutesAway = currentTime.diff(nextArrival);
-
-// var getIDTest = $('#form-group')
-// var idRef = firebase.database().ref().child('form-group');
